@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu", sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body{
+  height: 100vh;
+  background: url(goku.jpg.jpg) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.name{
+   padding: 8px;
+  color: black;
+  font-weight: 600;
+  font-size: 28px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.profile-card{
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.card-header{
+  background: #5c465c;
+  padding: 60px 40px;
+}
+
+.pic{
+  display: inline-block;
+  padding: 9px;
+  background: linear-gradient(130deg, rgb(57, 193, 247), #81fa95);
+  margin: auto;
+  border-radius: 50%;
+  background-size: 200% 200%;
+  animation: animated-gradient 2s linear infinite;
+}
+
+@keyframes animated-gradient{
+  25%{
+    background-position: left bottom;
+  }
+  50%{
+    background-position: right bottom;
+  }
+  75%{
+    background-position: right top;
+  }
+  100%{
+    background-position: left top;
+  }
+}
+
+.pic img{
+  display: block;
+  width: 105px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+ /* .name{
+  color: #080808;
+  font-size: 28px;
+  font-weight: 600;
+    margin: 10px 0;
+  } */
+
+
+/* .desc{
+  font-size: 18px;
+  color: #e66767;
+} */
+
+/* .sm{
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+} */
+
+/* .sm a{
+  color: #f2f2f2;
+  width: 56px;
+  font-size: 22px;
+  transition: .3s linear;
+} */
+
+/* .sm a:hover{
+  color: #e66767;
+}  */
+
+.my{
+  padding: 12px 50px;
+  color: #4991f0;
+  border: 3px solid #6ff7b3;
+  border-radius: 20px;
+  margin-top: 11px;
+  transition: .3s linear;
+}
+.instagram:hover a,.instagram:focus a
+{
+    color: #d6249f;
+}
+
+
+
+.whatsapp:hover a,.whatsapp:focus a
+{
+    color: #31e949;
+}
+
+
